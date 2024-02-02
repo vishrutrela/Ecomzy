@@ -39,7 +39,7 @@ const Home = () => {
                     <p>Error: {error.message}</p>
                 </div>
             ) : (
-                <div className='grid grid-cols-4 max-w-6xl p-2 mx-auto space-y-10 space-x-5'>
+                <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto space-y-10 space-x-5'>
                     {posts.length > 0 ? (
                         posts.map((post) => (
                             <Product key={post.id} post={post} />

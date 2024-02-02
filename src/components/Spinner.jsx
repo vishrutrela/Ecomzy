@@ -2,7 +2,9 @@ import React from 'react'
 import "../index.css"
 const Spinner = () => {
   return (
-    <div className='spinner'></div>
+    <div className='flex justify-center my-40'>
+      <div className='spinner'></div>
+    </div>
   )
 }
 
